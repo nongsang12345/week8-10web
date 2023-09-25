@@ -1,0 +1,43 @@
+.table-luxury {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; /* Add some margin to the top */
+}
+
+.table-luxury th,
+.table-luxury td {
+    border: none;
+    padding: 10px; /* Add padding to cells for spacing */
+    text-align: center; /* Center text horizontally in cells */
+}
+
+/* Style the "Edit" and "Delete" buttons */
+.btn-warning {
+    background-color: #ffc107; /* Yellow color for "Edit" button */
+    color: #212529; /* Text color */
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red color for "Delete" button */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the "Insert New Record" button */
+.btn-success.btn-luxury {
+    background-color: #28a745; /* Green color for "Insert New Record" button */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-success.btn-luxury:hover {
+    background-color: #218838; /* Darker green color on hover */
+}
